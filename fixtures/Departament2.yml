@@ -1,0 +1,24 @@
+- table: departament
+  records:
+    - id: 2
+      name: dep_1
+      parent_id: 1
+
+- model: source.models.Employee
+  records:
+    - id: 5
+      first_name: Aaaa
+      last_name: Bbbbb
+      departament_id: 2
+    - id: 6
+      first_name: Fffff
+      last_name: Ggggg
+      departament_id: 2
+    - id: 7
+      first_name: Cccc
+      last_name: Ddddd
+      departament_id: 2
+    - id: 8
+      first_name: Jjjjj
+      last_name: Mmmmmm
+      departament_id: 2
